@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "WeekendBlog.Controllers.BlogPostController",
+    "Method": "Get",
+    "RelativePath": "api/BlogPost",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

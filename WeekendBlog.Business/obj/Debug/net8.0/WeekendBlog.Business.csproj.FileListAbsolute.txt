@@ -1,0 +1,15 @@
+D:\Projects\WeekendBlog\WeekendBlog.Business\bin\Debug\net8.0\WeekendBlog.Business.deps.json
+D:\Projects\WeekendBlog\WeekendBlog.Business\bin\Debug\net8.0\WeekendBlog.Business.dll
+D:\Projects\WeekendBlog\WeekendBlog.Business\bin\Debug\net8.0\WeekendBlog.Business.pdb
+D:\Projects\WeekendBlog\WeekendBlog.Business\bin\Debug\net8.0\WeekendBlog.Dataaccess.dll
+D:\Projects\WeekendBlog\WeekendBlog.Business\bin\Debug\net8.0\WeekendBlog.Dataaccess.pdb
+D:\Projects\WeekendBlog\WeekendBlog.Business\obj\Debug\net8.0\WeekendBlog.Business.csproj.AssemblyReference.cache
+D:\Projects\WeekendBlog\WeekendBlog.Business\obj\Debug\net8.0\WeekendBlog.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\WeekendBlog\WeekendBlog.Business\obj\Debug\net8.0\WeekendBlog.Business.AssemblyInfoInputs.cache
+D:\Projects\WeekendBlog\WeekendBlog.Business\obj\Debug\net8.0\WeekendBlog.Business.AssemblyInfo.cs
+D:\Projects\WeekendBlog\WeekendBlog.Business\obj\Debug\net8.0\WeekendBlog.Business.csproj.CoreCompileInputs.cache
+D:\Projects\WeekendBlog\WeekendBlog.Business\obj\Debug\net8.0\WeekendB.4147322A.Up2Date
+D:\Projects\WeekendBlog\WeekendBlog.Business\obj\Debug\net8.0\WeekendBlog.Business.dll
+D:\Projects\WeekendBlog\WeekendBlog.Business\obj\Debug\net8.0\refint\WeekendBlog.Business.dll
+D:\Projects\WeekendBlog\WeekendBlog.Business\obj\Debug\net8.0\WeekendBlog.Business.pdb
+D:\Projects\WeekendBlog\WeekendBlog.Business\obj\Debug\net8.0\ref\WeekendBlog.Business.dll

@@ -1,0 +1,14 @@
+D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\bin\Debug\net8.0\WeekendBlog.Dataaccess.deps.json
+D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\bin\Debug\net8.0\WeekendBlog.Dataaccess.runtimeconfig.json
+D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\bin\Debug\net8.0\WeekendBlog.Dataaccess.dll
+D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\bin\Debug\net8.0\WeekendBlog.Dataaccess.pdb
+D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\obj\Debug\net8.0\WeekendBlog.Dataaccess.csproj.AssemblyReference.cache
+D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\obj\Debug\net8.0\WeekendBlog.Dataaccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\obj\Debug\net8.0\WeekendBlog.Dataaccess.AssemblyInfoInputs.cache
+D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\obj\Debug\net8.0\WeekendBlog.Dataaccess.AssemblyInfo.cs
+D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\obj\Debug\net8.0\WeekendBlog.Dataaccess.csproj.CoreCompileInputs.cache
+D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\obj\Debug\net8.0\WeekendBlog.Dataaccess.dll
+D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\obj\Debug\net8.0\refint\WeekendBlog.Dataaccess.dll
+D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\obj\Debug\net8.0\WeekendBlog.Dataaccess.pdb
+D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\obj\Debug\net8.0\WeekendBlog.Dataaccess.genruntimeconfig.cache
+D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\obj\Debug\net8.0\ref\WeekendBlog.Dataaccess.dll
