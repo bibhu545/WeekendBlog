@@ -15,7 +15,11 @@ namespace WeekendBlog.Dataaccess
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Models.BlogPost>().ToTable("BlogPosts").Property(p => p.CreatedAt).HasDefaultValueSql("GETDATE()");
+            modelBuilder.Entity<Models.BlogPost>().Property(p => p.IsDeleted).HasDefaultValue(false);
+
             modelBuilder.Entity<Models.Category>().ToTable("Categories").Property(p => p.CreatedAt).HasDefaultValueSql("GETDATE()");
+            modelBuilder.Entity<Models.Category>().Property(p => p.IsActive).HasDefaultValue(true);
+
             modelBuilder.Entity<Models.Tag>().ToTable("Tags").Property(p => p.CreatedAt).HasDefaultValueSql("GETDATE()");
         }
     }

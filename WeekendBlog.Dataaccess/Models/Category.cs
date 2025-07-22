@@ -16,6 +16,7 @@ namespace WeekendBlog.Dataaccess.Models
         public String CategoryName { get; set; } = String.Empty;
         [Required]
         public String CategoryDescription { get; set; } = String.Empty;
+        public bool IsActive { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
     }

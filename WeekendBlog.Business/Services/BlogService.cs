@@ -35,22 +35,17 @@ namespace WeekendBlog.Business.Services
         public async Task<IEnumerable<BlogPostDto>> GetActiveBlogPostsAsync()
         {
             var posts = await _blogRepository.GetActiveBlogPostsAsync();
-            var postDtos = new List<BlogPostDto>();
-            foreach (var post in posts)
+            return posts.Select(post => new BlogPostDto
             {
-                var postDto = new BlogPostDto
-                {
-                    PostId = post.PostId,
-                    PostBody = post.PostBody,
-                    PostHeader = post.PostHeader,
-                    CategoryId = post.CategoryId,
-                    IsDeleted = post.IsDeleted,
-                    Tags = post.Tags,
-                    CreatedAt = post.CreatedAt,
-                    UpdatedAt = post.UpdatedAt
-                };
-            }
-            return postDtos;
+                PostId = post.PostId,
+                PostBody = post.PostBody,
+                PostHeader = post.PostHeader,
+                CategoryId = post.CategoryId,
+                IsDeleted = post.IsDeleted,
+                Tags = post.Tags,
+                CreatedAt = post.CreatedAt,
+                UpdatedAt = post.UpdatedAt
+            });
         }
     }
 }

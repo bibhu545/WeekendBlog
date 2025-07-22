@@ -24,7 +24,6 @@ namespace WeekendBlog.Dataaccess.Models
         [Required]
         public Guid CategoryId { get; set; }
         [Required]
-        [DefaultValue(false)]
         public Boolean IsDeleted { get; set; }
         public List<Guid> Tags { get; set; }
         [Required]

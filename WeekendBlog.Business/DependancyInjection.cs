@@ -20,6 +20,7 @@ namespace WeekendBlog.Business
 
             // Register business services here
             services.AddScoped<IBlogService, BlogService>();
+            services.AddScoped<ICategoryService, CategoryService>();
             return services;
         }
     }
