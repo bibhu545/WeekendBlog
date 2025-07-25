@@ -13,6 +13,7 @@ namespace WeekendBlog.Dataaccess
             services.AddDbContext<BlogContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<IBlogRepository, BlogRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
             return services;
         }
     }

@@ -5,7 +5,7 @@ namespace WeekendBlog.Dataaccess.Interfaces
 {
     internal class CategoryRepository : ICategoryRepository
     {
-        private BlogContext _context;
+        private readonly BlogContext _context;
         public CategoryRepository(BlogContext context)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
