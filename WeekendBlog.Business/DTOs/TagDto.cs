@@ -1,18 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WeekendBlog.Dataaccess.Models
+namespace WeekendBlog.Business.DTOs
 {
-    public class Tag
+    public class TagDto
     {
-        [Key]
         public Guid TagId { get; set; }
-        [Required]
         public String TagName { get; set; } = String.Empty;
         public bool IsActive { get; set; }
         public DateTime CreatedAt { get; set; }

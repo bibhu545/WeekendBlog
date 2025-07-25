@@ -22,6 +22,8 @@ namespace WeekendBlog.Business
             services.AddScoped<IBlogService, BlogService>();
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IRoleService, RoleService>();
+            services.AddScoped<ITagService, TagService>();
             return services;
         }
     }

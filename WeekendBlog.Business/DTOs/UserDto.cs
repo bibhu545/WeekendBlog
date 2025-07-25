@@ -15,6 +15,7 @@ namespace WeekendBlog.Business.DTOs
         public String LastName { get; set; } = String.Empty;
         public String Password { get; set; } = String.Empty;
         public String Email { get; set; } = String.Empty;
+        public Guid RoleId { get; set; }
         public bool IsActive { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }

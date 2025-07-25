@@ -14,6 +14,8 @@ namespace WeekendBlog.Dataaccess
             services.AddScoped<IBlogRepository, BlogRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IRoleRepository, RoleRepository>();
+            services.AddScoped<ITagRepository, TagRepository>();
             return services;
         }
     }

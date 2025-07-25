@@ -24,8 +24,11 @@ namespace WeekendBlog.Dataaccess.Models
         [Required]
         [EmailAddress(ErrorMessage = "Not a valid Email")]
         public String Email { get; set; } = String.Empty;
+        [Required]
+        public Guid RoleId { get; set; }
         public bool IsActive { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
+        public UserRole? Role { get; set; }
     }
 }

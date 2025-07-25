@@ -28,6 +28,7 @@ namespace WeekendBlog.Business.Services
                 LastName = userDto.LastName,
                 Password = userDto.Password,
                 Email = userDto.Email,
+                RoleId = userDto.RoleId,
                 IsActive = true,
                 CreatedAt = DateTime.Now
             };

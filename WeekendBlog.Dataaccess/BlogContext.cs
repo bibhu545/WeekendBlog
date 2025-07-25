@@ -13,6 +13,7 @@ namespace WeekendBlog.Dataaccess
         public DbSet<Models.Category> Categories { get; set; }
         public DbSet<Models.Tag> Tags { get; set; }
         public DbSet<Models.User> Users { get; set; }
+        public DbSet<Models.UserRole> UserRoles { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Models.BlogPost>().ToTable("BlogPosts").Property(p => p.CreatedAt).HasDefaultValueSql("GETDATE()");
@@ -22,6 +23,10 @@ namespace WeekendBlog.Dataaccess
             modelBuilder.Entity<Models.Category>().Property(p => p.IsActive).HasDefaultValue(true);
 
             modelBuilder.Entity<Models.Tag>().ToTable("Tags").Property(p => p.CreatedAt).HasDefaultValueSql("GETDATE()");
+            modelBuilder.Entity<Models.Tag>().Property(p => p.IsActive).HasDefaultValue(true);
+
+            modelBuilder.Entity<Models.UserRole>().ToTable("UserRoles").Property(p => p.CreatedAt).HasDefaultValueSql("GETDATE()");
+            modelBuilder.Entity<Models.UserRole>().Property(p => p.IsActive).HasDefaultValue(true);
 
             modelBuilder.Entity<Models.User>().ToTable("Users").Property(p => p.CreatedAt).HasDefaultValueSql("GETDATE()");
             modelBuilder.Entity<Models.User>().Property(p => p.IsActive).HasDefaultValue(true);
