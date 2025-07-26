@@ -12,3 +12,4 @@ D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\obj\Debug\net8.0\refint\WeekendBl
 D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\obj\Debug\net8.0\WeekendBlog.Dataaccess.pdb
 D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\obj\Debug\net8.0\WeekendBlog.Dataaccess.genruntimeconfig.cache
 D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\obj\Debug\net8.0\ref\WeekendBlog.Dataaccess.dll
+D:\Projects\WeekendBlog\WeekendBlog.Dataaccess\obj\Debug\net8.0\WeekendBlog.Dataaccess.sourcelink.json

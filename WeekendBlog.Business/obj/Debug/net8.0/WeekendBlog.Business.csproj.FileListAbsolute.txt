@@ -13,3 +13,4 @@ D:\Projects\WeekendBlog\WeekendBlog.Business\obj\Debug\net8.0\WeekendBlog.Busine
 D:\Projects\WeekendBlog\WeekendBlog.Business\obj\Debug\net8.0\refint\WeekendBlog.Business.dll
 D:\Projects\WeekendBlog\WeekendBlog.Business\obj\Debug\net8.0\WeekendBlog.Business.pdb
 D:\Projects\WeekendBlog\WeekendBlog.Business\obj\Debug\net8.0\ref\WeekendBlog.Business.dll
+D:\Projects\WeekendBlog\WeekendBlog.Business\obj\Debug\net8.0\WeekendBlog.Business.sourcelink.json

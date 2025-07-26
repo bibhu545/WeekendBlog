@@ -42,12 +42,12 @@ namespace WeekendBlog.Controllers
             {
                 return BadRequest("User data is null");
             }
-            var user = await _userService.Login(userDto);
-            if (user == null)
+            var token = await _userService.Login(userDto);
+            if (token == null)
             {
                 return Unauthorized("Invalid credentials");
             }
-            return Ok(user);
+            return Ok(new { Token = token  });
         }
     }
 }

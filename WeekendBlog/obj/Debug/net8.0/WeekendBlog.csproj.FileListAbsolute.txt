@@ -179,3 +179,5 @@ D:\Projects\WeekendBlog\WeekendBlog\bin\Debug\net8.0\Microsoft.Extensions.Config
 D:\Projects\WeekendBlog\WeekendBlog\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 D:\Projects\WeekendBlog\WeekendBlog\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
 D:\Projects\WeekendBlog\WeekendBlog\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Projects\WeekendBlog\WeekendBlog\obj\Debug\net8.0\WeekendBlog.sourcelink.json
+D:\Projects\WeekendBlog\WeekendBlog\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

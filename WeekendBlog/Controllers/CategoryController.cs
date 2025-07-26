@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WeekendBlog.Business.DTOs;
 using WeekendBlog.Business.Interfaces;
 
@@ -21,6 +22,7 @@ namespace WeekendBlog.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> AddCategory([FromBody] CategoryDTO categoryDto)
         {
             if (categoryDto == null)
